@@ -90,7 +90,7 @@ The time tracker for this lesson can be viewed here: [Time Tracker](https://docs
 <details>
   <summary><strong>📣 3. Instructor Do: Compare DataFrames and SQL APIs (0:10)</strong></summary>
 
-  **Corresponding Activity:** [01-Ins_SQL_and_DataFrames](Activities/01-Ins_SQL_and_DataFrames)
+  **Corresponding Activity:** [01-Ins_SQL_and_DataFrames](Activities/01-Ins_SQL_and_DataFrames/Solved)
 
   **File:** [dataframes_and_sql.ipynb](Activities/01-Ins_SQL_and_DataFrames/Solved/dataframes_and_sql.ipynb)
 
@@ -130,13 +130,13 @@ That's it! Now that we can see the two approaches have the same performance, you
 <details>
   <summary><strong>✏️ 4. Student Do: Superheroes in SQL (0:15)</strong></summary>
 
-**Corresponding Activity:** [02-Stu_Superheroes_SQL](Activities/02-Stu_Superheroes_SQL)
+**Corresponding Activity:** [02-Stu_Superheroes_SQL](Activities/02-Stu_Superheroes_SQL/Unsolved)
 
 In this activity, students will join across two different datasets with SQL queries.
 
 **Instructions:** [README.md](Activities/02-Stu_Superheroes_SQL/README.md)
 
-**File:** [superheroes_in_sql.ipynb](Activities\02-Stu_Superheroes_SQL\Unsolved\superheroes_in_sql.ipynb)
+**File:** [superheroes_in_sql.ipynb](Activities/02-Stu_Superheroes_SQL/Unsolved/superheroes_in_sql.ipynb)
 
 
 </details>
@@ -151,7 +151,7 @@ In this activity, students will join across two different datasets with SQL quer
   * For the file upload, select both CSV files from the Resources folder. Show students how to hold down SELECT on the keyboard while selecting both files in the Resources folder.
     ![Google Upload Multiple Files](Images/upload_multiple_files.png)
   * Point out that we need to make two separate variables when we import the data into DataFrames. We also need to call `.createOrReplaceTempView()` separately for each DataFrame.
-    ![Hero Spark Upload](Images/hero_spark_upload.png)
+    ![Hero Spark Upload](Images/hero_spark_load.png)
   * Go over all of the SQL queries in the solutions files. Ask students if they used different techniques to get to the same answer. If they say yes, ask if they can share their screen to show the class their different approach!
   * For the first query we want to select three columns from the `heroes` table. Note that students may have named their tables differently.
     * Point out that we use backticks when selecting ``Eye color`` because there is a space in the column name. We could have also renamed this column to get rid of the space.
