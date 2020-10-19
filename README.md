@@ -121,7 +121,7 @@ The time tracker for this lesson can be viewed here: [Time Tracker](https://docs
     * Students might be familiar with the similar `EXPLAIN` clause in SQL.
     * It's not important to dive into the details of the physical plan right now. Later on it will be helpful for tuning our Spark queries, but for now we want to notice that using the DataFrames or SQL API produces the exact same performance.
     ![Spark Explain](Images/explain.png)
-That's it! Now that we can see the two approaches have the same performance, you can use whichever method you and your team feel most comfortable with.
+That's it! Now that we can see the two approaches have the same performance, you can use whichever method you and your team feel most comfortable with. Now let's get some practice with joins using both methods. First we'll focus on writing SQL queries.
   
 </details>
 
@@ -161,6 +161,8 @@ In this activity, students will join across two different datasets with SQL quer
     ![Hero Females by Publisher](Images/hero_females_by_publisher.png)
   * For the third query, highlight the use of the `LEFT JOIN`. There are several ways to write a SQL query to find records in one table but not the other. Ask if students used any other approaches. Refer to https://explainextended.com/2009/09/15/not-in-vs-not-exists-vs-left-join-is-null-sql-server/ for methods other than the LEFT JOIN/IS NULL approach used here.
     ![Heroes not in the Superpowers Table](Images/hero_no_powers.png)
+
+Let students know that in the next activity we will write the same joins as we did in this activity, but this time with built-in DataFrame functions instead of SQL.
 
 </details>
 
